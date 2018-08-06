@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">RoadPadForCloud</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">WELCOME</string>
+    <string name="avin_error">AVIN ERROR</string>
+    <string name="defaulturl">http://www.google.com</string>
+    <string name="no_interent">Internet not available!</string>
+    <string name="password_error">Password Error</string>
+    <string name="password_vefify">Password Verify</string>
+    <string name="movie_text">MOVIE</string>
+    <string name="music_text">MUSIC</string>
+    <string name="game_text">GAME</string>
+    <string name="about_us_text">ABOUT US</string>
+    <string name="internet_text">INTERNET</string>
+    <string name="ebook_text">E-BOOK</string>
+    <string name="news_text">NEWS</string>
+ <string name="bus_services">SERVICES</string>
+ <string name="location">QURAN</string>
+
+</resources>

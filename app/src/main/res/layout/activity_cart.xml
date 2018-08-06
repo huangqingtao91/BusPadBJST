@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="车上商城"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_title"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/tv1"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#f77d0a"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="饮料"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/tv2"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#f77d0a"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="甜点"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/tv3"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#f77d0a"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="零食"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+        <TextView
+            android:textColor="#FFFFFF"
+            android:id="@+id/tv4"
+            android:layout_margin="1dp"
+            android:layout_weight="1"
+            android:background="#f77d0a"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="水果"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:src="@mipmap/ic_null"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/imageView2"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:text="什么也没有"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView2"/>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RoadPadForCloud</string>
+    <string name="defaulturl">http://www.google.com</string>
+    <string name="no_interent">لا شبكة!</string>
+    <string name="password_error">كلمة مرور خاطئة</string>
+    <string name="password_vefify">مصادقة كلمة المرور</string>
+    <string name="movie_text">فيلم</string>
+    <string name="music_text">موسيقي </string>
+    <string name="game_text">العاب الكترونية</string>
+    <string name="about_us_text">معلومات عنا</string>
+    <string name="internet_text">إنترنت</string>
+    <string name="ebook_text">كتب الكترونية</string>
+    <string name="news_text">أخبار</string>     
+    <string name="action_settings">نصب</string>
+    <string name="welcome">أهلا بك</string>
+    <string name="avin_error">AVIN خطأ</string>
+    <string name="bus_services">خدمة</string>
+    <string name="location">موقعك</string>
+
+</resources>

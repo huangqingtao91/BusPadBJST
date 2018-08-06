@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFFFFF"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#791010">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/music_text"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_music"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="#000000"
+        android:dividerHeight="1dp">
+
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/rl_menu"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#0aa8cb"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_model"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_alignTop="@+id/iv_play"
+            android:layout_marginRight="110dp"
+            android:layout_toLeftOf="@+id/iv_play"
+            android:layout_toStartOf="@+id/iv_play"
+            android:src="@mipmap/ic_shunxu"/>
+
+        <ImageView
+
+            android:id="@+id/iv_play"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:src="@mipmap/ic_pause"/>
+
+        <ImageView
+            android:id="@+id/iv_next"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_alignTop="@+id/iv_play"
+            android:layout_marginLeft="40dp"
+            android:layout_toEndOf="@+id/iv_play"
+            android:layout_toRightOf="@+id/iv_play"
+            android:src="@mipmap/ic_next"/>
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_alignTop="@+id/iv_play"
+            android:layout_marginRight="40dp"
+            android:layout_toLeftOf="@+id/iv_play"
+            android:layout_toStartOf="@+id/iv_play"
+            android:src="@mipmap/ic_last"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="2dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:gravity="center"
+                android:text="00:00"
+                android:textColor="#FFFFFF"/>
+
+            <SeekBar
+                android:id="@+id/listen_jindutiao_sb"
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:progressDrawable="@drawable/seekbar_style"
+                android:thumb="@null"/>
+
+            <TextView
+                android:id="@+id/tv_totaltime"
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="50dp"
+                android:gravity="center"
+                android:text="00:00"
+                android:textColor="#FFFFFF"/>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/gamebr"
+    android:id="@+id/app_manage_bg">
+
+    <GridView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"     
+        android:id="@+id/app_manage_gv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:horizontalSpacing="20dp"
+        android:verticalSpacing="20dp"
+        android:layout_gravity="center"
+        android:numColumns="5" />
+</RelativeLayout>

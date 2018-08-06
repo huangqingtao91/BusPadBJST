@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/reload"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_qr"
+        android:layout_width="200dp"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/tv_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="请用微信或者支付宝扫描上方二维码"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:id="@+id/ll_gkm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="观看码： "
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/ed_gkm"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tv_yes"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="#fa8e2a"
+                android:gravity="center"
+                android:text="确定"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="800dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="200dp"
+            android:text="请在上方输入框输入您的观看码，观看码为6位数字密码                          "/>
+
+        <TextView
+            android:layout_width="800dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="200dp"
+            android:text="观看码是防止手机支付成功后，因终端网络不好而造成验证失败的备用方案，有效期为一天"/>
+
+        <TextView
+            android:layout_width="800dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="200dp"
+            android:text="1.支付宝：可到“我的”——>“账单” 里面打开账单信息，“商品信息”后面数字即为观看码"/>
+
+        <TextView
+            android:layout_width="800dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="200dp"
+            android:text="2.微信：可到微信“支付凭证” 查看商品账单，“商品” 后面数字即为观看码              "/>
+
+    </LinearLayout>
+
+</LinearLayout>
+

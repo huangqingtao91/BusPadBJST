@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RoadPadForCloud</string>
+    <string name="defaulturl">http://www.baidu.com</string>
+    <string name="no_interent">没有网络!</string>
+    <string name="password_error">密码错误</string>
+    <string name="password_vefify">密码验证</string>
+    <string name="movie_text">电影</string>
+    <string name="music_text">音乐</string>
+    <string name="game_text">游戏</string>
+    <string name="about_us_text">关于我们</string>
+    <string name="internet_text">上网</string>
+    <string name="ebook_text">电子书</string>
+    <string name="news_text">新闻</string>     
+    <string name="action_settings">设置</string>
+    <string name="welcome">欢迎</string>
+    <string name="avin_error">AVIN 错误</string>
+    <string name="bus_services">车上服务</string>
+    <string name="location">位置</string>
+
+</resources>

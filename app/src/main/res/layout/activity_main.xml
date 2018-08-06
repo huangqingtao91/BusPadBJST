@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@mipmap/onelayout">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="44dip"
+        android:layout_marginTop="25dip"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivpoint"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@null"
+            android:src="@mipmap/point"/>
+
+        <ImageView
+            android:id="@+id/ivLanguageZh"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/zh_selector"/>
+
+        <ImageView
+            android:id="@+id/ivLanguageAr"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ar_selector"/>
+
+        <ImageView
+            android:id="@+id/ivLanguageEs"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/es_selector"/>
+
+        <ImageView
+            android:id="@+id/ivLanguageRu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/ru_selector"/>
+
+        <ImageView
+            android:id="@+id/ivLanguageFr"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@null"
+            android:src="@drawable/fr_selector"/>
+
+        <ImageView
+            android:id="@+id/ivLanguageEn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="68dp"
+            android:contentDescription="@null"
+            android:src="@drawable/en_selector"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/musics_relativeLayout"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:background="@mipmap/musics_es">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/home_selector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3dp"
+            android:text="@string/music_text"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/movies_relativeLayout"
+        android:layout_width="240dp"
+        android:layout_height="112dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="140dp"
+        android:layout_toLeftOf="@id/musics_relativeLayout"
+        android:background="@mipmap/movies_es">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/home_selector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3dp"
+            android:text="@string/movie_text"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/games_relativeLayout"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="140dp"
+        android:layout_toRightOf="@id/musics_relativeLayout"
+        android:background="@mipmap/games_es">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/home_selector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3dp"
+            android:text="@string/game_text"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/server_relativeLayout"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="140dp"
+        android:layout_toRightOf="@id/games_relativeLayout"
+        android:background="@mipmap/server_2">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/home_selector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3dp"
+            android:gravity="right"
+            android:text="@string/bus_services"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ebooks_relativeLayout"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_below="@id/musics_relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="@mipmap/ebooks_es">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/home_selector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3dp"
+            android:gravity="right"
+            android:text="@string/ebook_text"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/internet_relativeLayout"
+        android:layout_width="240dp"
+        android:layout_height="112dp"
+        android:layout_alignTop="@id/ebooks_relativeLayout"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@id/ebooks_relativeLayout"
+        android:background="@mipmap/tv_es">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/home_selector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3dp"
+            android:text="@string/internet_text"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/quran_relativeLayout"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_alignTop="@id/ebooks_relativeLayout"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/ebooks_relativeLayout"
+        android:background="@mipmap/help_es_nor2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3dp"
+            android:gravity="right"
+            android:text="@string/location"
+            android:textColor="@android:color/white"
+            android:id="@+id/textView3"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/home_selector"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignRight="@+id/textView3"
+            android:layout_alignEnd="@+id/textView3"
+            android:id="@+id/imageView4"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/aboutus_relativeLayout"
+        android:layout_width="112dp"
+        android:layout_height="112dp"
+        android:layout_alignTop="@id/quran_relativeLayout"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/quran_relativeLayout"
+        android:background="@mipmap/company">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/home_selector"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="3dp"
+            android:gravity="right"
+            android:text="@string/about_us_text"
+            android:textColor="@android:color/white"/>
+    </RelativeLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:layout_alignLeft="@+id/movies_relativeLayout"
+        android:layout_below="@+id/linearLayout1"
+        android:gravity="left"
+        android:text="@string/welcome"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"/>
+
+</RelativeLayout>
